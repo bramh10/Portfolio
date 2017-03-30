@@ -81,6 +81,7 @@
   font-size: 36px;
   margin-top: 60px;
   font-weight: 700;
+  padding-top: 50px;
 }
 .caption {
   text-align: center;
@@ -109,7 +110,11 @@ hr.small {
 a{
   color: #000000;
 }
-
+.enter {
+    width: 100%;
+    height: 10%;
+    background-color: white;
+}
 .pfo{
     display: block;
     max-width: 30%;
@@ -120,7 +125,44 @@ a{
     margin-bottom: 3.3%;
 }
 
+.pfomood {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 3.3%;
+    margin-bottom: 3.3%;
+}
+
 .moodvideo {
     margin-top: 3.3%;
     margin-bottom: 3.3%;
+}
+
+.anneschets{
+    display: block;
+    max-width: 23%;
+    height: auto;
+    float: left;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2;
+}
+.anneuitgewerkt{
+    display: block;
+    max-width: 48%;
+    height: auto;
+    float: left;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2;
+}
+
+.annewebsite{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 2;
 }
